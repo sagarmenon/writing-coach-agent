@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "gunicorn coach:app"
+restartPolicyType = "on_failure"
