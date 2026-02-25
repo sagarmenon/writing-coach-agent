@@ -1,1 +1,1 @@
-web: gunicorn coach:app
+web: gunicorn coach:app --timeout 120 --workers 1
